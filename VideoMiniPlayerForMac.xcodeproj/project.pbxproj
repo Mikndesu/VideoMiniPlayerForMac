@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BA76E1E2478117400223297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76E1D2478117400223297 /* AppDelegate.swift */; };
+		7BA76E202478117400223297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76E1F2478117400223297 /* ViewController.swift */; };
+		7BA76E222478117A00223297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA76E212478117A00223297 /* Assets.xcassets */; };
+		7BA76E252478117A00223297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA76E232478117A00223297 /* Main.storyboard */; };
+		7BA76E312478117B00223297 /* VideoMiniPlayerForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76E302478117B00223297 /* VideoMiniPlayerForMacTests.swift */; };
+		7BA76E3C2478117B00223297 /* VideoMiniPlayerForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA76E3B2478117B00223297 /* VideoMiniPlayerForMacUITests.swift */; };
+		7BA76E4A2478119900223297 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7BA76E492478119900223297 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BA76E2D2478117B00223297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA76E122478117400223297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA76E192478117400223297;
+			remoteInfo = VideoMiniPlayerForMac;
+		};
+		7BA76E382478117B00223297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA76E122478117400223297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA76E192478117400223297;
+			remoteInfo = VideoMiniPlayerForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BA76E1A2478117400223297 /* VideoMiniPlayerForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoMiniPlayerForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA76E1D2478117400223297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BA76E1F2478117400223297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BA76E212478117A00223297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BA76E242478117A00223297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BA76E262478117A00223297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA76E272478117A00223297 /* VideoMiniPlayerForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoMiniPlayerForMac.entitlements; sourceTree = "<group>"; };
+		7BA76E2C2478117B00223297 /* VideoMiniPlayerForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMiniPlayerForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA76E302478117B00223297 /* VideoMiniPlayerForMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMiniPlayerForMacTests.swift; sourceTree = "<group>"; };
+		7BA76E322478117B00223297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA76E372478117B00223297 /* VideoMiniPlayerForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMiniPlayerForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA76E3B2478117B00223297 /* VideoMiniPlayerForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMiniPlayerForMacUITests.swift; sourceTree = "<group>"; };
+		7BA76E3D2478117B00223297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA76E492478119900223297 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA76E172478117400223297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA76E292478117B00223297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA76E342478117B00223297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA76E112478117400223297 = {
+			isa = PBXGroup;
+			children = (
+				7BA76E492478119900223297 /* .gitignore */,
+				7BA76E1C2478117400223297 /* VideoMiniPlayerForMac */,
+				7BA76E2F2478117B00223297 /* VideoMiniPlayerForMacTests */,
+				7BA76E3A2478117B00223297 /* VideoMiniPlayerForMacUITests */,
+				7BA76E1B2478117400223297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA76E1B2478117400223297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76E1A2478117400223297 /* VideoMiniPlayerForMac.app */,
+				7BA76E2C2478117B00223297 /* VideoMiniPlayerForMacTests.xctest */,
+				7BA76E372478117B00223297 /* VideoMiniPlayerForMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA76E1C2478117400223297 /* VideoMiniPlayerForMac */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76E1D2478117400223297 /* AppDelegate.swift */,
+				7BA76E1F2478117400223297 /* ViewController.swift */,
+				7BA76E212478117A00223297 /* Assets.xcassets */,
+				7BA76E232478117A00223297 /* Main.storyboard */,
+				7BA76E262478117A00223297 /* Info.plist */,
+				7BA76E272478117A00223297 /* VideoMiniPlayerForMac.entitlements */,
+			);
+			path = VideoMiniPlayerForMac;
+			sourceTree = "<group>";
+		};
+		7BA76E2F2478117B00223297 /* VideoMiniPlayerForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76E302478117B00223297 /* VideoMiniPlayerForMacTests.swift */,
+				7BA76E322478117B00223297 /* Info.plist */,
+			);
+			path = VideoMiniPlayerForMacTests;
+			sourceTree = "<group>";
+		};
+		7BA76E3A2478117B00223297 /* VideoMiniPlayerForMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BA76E3B2478117B00223297 /* VideoMiniPlayerForMacUITests.swift */,
+				7BA76E3D2478117B00223297 /* Info.plist */,
+			);
+			path = VideoMiniPlayerForMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA76E192478117400223297 /* VideoMiniPlayerForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA76E402478117B00223297 /* Build configuration list for PBXNativeTarget "VideoMiniPlayerForMac" */;
+			buildPhases = (
+				7BA76E162478117400223297 /* Sources */,
+				7BA76E172478117400223297 /* Frameworks */,
+				7BA76E182478117400223297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoMiniPlayerForMac;
+			productName = VideoMiniPlayerForMac;
+			productReference = 7BA76E1A2478117400223297 /* VideoMiniPlayerForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BA76E2B2478117B00223297 /* VideoMiniPlayerForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA76E432478117B00223297 /* Build configuration list for PBXNativeTarget "VideoMiniPlayerForMacTests" */;
+			buildPhases = (
+				7BA76E282478117B00223297 /* Sources */,
+				7BA76E292478117B00223297 /* Frameworks */,
+				7BA76E2A2478117B00223297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA76E2E2478117B00223297 /* PBXTargetDependency */,
+			);
+			name = VideoMiniPlayerForMacTests;
+			productName = VideoMiniPlayerForMacTests;
+			productReference = 7BA76E2C2478117B00223297 /* VideoMiniPlayerForMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BA76E362478117B00223297 /* VideoMiniPlayerForMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA76E462478117B00223297 /* Build configuration list for PBXNativeTarget "VideoMiniPlayerForMacUITests" */;
+			buildPhases = (
+				7BA76E332478117B00223297 /* Sources */,
+				7BA76E342478117B00223297 /* Frameworks */,
+				7BA76E352478117B00223297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA76E392478117B00223297 /* PBXTargetDependency */,
+			);
+			name = VideoMiniPlayerForMacUITests;
+			productName = VideoMiniPlayerForMacUITests;
+			productReference = 7BA76E372478117B00223297 /* VideoMiniPlayerForMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA76E122478117400223297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MitsukiGoto;
+				TargetAttributes = {
+					7BA76E192478117400223297 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7BA76E2B2478117B00223297 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7BA76E192478117400223297;
+					};
+					7BA76E362478117B00223297 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7BA76E192478117400223297;
+					};
+				};
+			};
+			buildConfigurationList = 7BA76E152478117400223297 /* Build configuration list for PBXProject "VideoMiniPlayerForMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA76E112478117400223297;
+			productRefGroup = 7BA76E1B2478117400223297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BA76E192478117400223297 /* VideoMiniPlayerForMac */,
+				7BA76E2B2478117B00223297 /* VideoMiniPlayerForMacTests */,
+				7BA76E362478117B00223297 /* VideoMiniPlayerForMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA76E182478117400223297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA76E222478117A00223297 /* Assets.xcassets in Resources */,
+				7BA76E4A2478119900223297 /* .gitignore in Resources */,
+				7BA76E252478117A00223297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA76E2A2478117B00223297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA76E352478117B00223297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA76E162478117400223297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA76E202478117400223297 /* ViewController.swift in Sources */,
+				7BA76E1E2478117400223297 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA76E282478117B00223297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA76E312478117B00223297 /* VideoMiniPlayerForMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA76E332478117B00223297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA76E3C2478117B00223297 /* VideoMiniPlayerForMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA76E2E2478117B00223297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA76E192478117400223297 /* VideoMiniPlayerForMac */;
+			targetProxy = 7BA76E2D2478117B00223297 /* PBXContainerItemProxy */;
+		};
+		7BA76E392478117B00223297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA76E192478117400223297 /* VideoMiniPlayerForMac */;
+			targetProxy = 7BA76E382478117B00223297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BA76E232478117A00223297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA76E242478117A00223297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BA76E3E2478117B00223297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BA76E3F2478117B00223297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7BA76E412478117B00223297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VideoMiniPlayerForMac/VideoMiniPlayerForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44W8AGS93F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = VideoMiniPlayerForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MitsukiGoto.VideoMiniPlayerForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BA76E422478117B00223297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VideoMiniPlayerForMac/VideoMiniPlayerForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44W8AGS93F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = VideoMiniPlayerForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MitsukiGoto.VideoMiniPlayerForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7BA76E442478117B00223297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44W8AGS93F;
+				INFOPLIST_FILE = VideoMiniPlayerForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MitsukiGoto.VideoMiniPlayerForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoMiniPlayerForMac.app/Contents/MacOS/VideoMiniPlayerForMac";
+			};
+			name = Debug;
+		};
+		7BA76E452478117B00223297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44W8AGS93F;
+				INFOPLIST_FILE = VideoMiniPlayerForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MitsukiGoto.VideoMiniPlayerForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoMiniPlayerForMac.app/Contents/MacOS/VideoMiniPlayerForMac";
+			};
+			name = Release;
+		};
+		7BA76E472478117B00223297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44W8AGS93F;
+				INFOPLIST_FILE = VideoMiniPlayerForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MitsukiGoto.VideoMiniPlayerForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoMiniPlayerForMac;
+			};
+			name = Debug;
+		};
+		7BA76E482478117B00223297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44W8AGS93F;
+				INFOPLIST_FILE = VideoMiniPlayerForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.MitsukiGoto.VideoMiniPlayerForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoMiniPlayerForMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA76E152478117400223297 /* Build configuration list for PBXProject "VideoMiniPlayerForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA76E3E2478117B00223297 /* Debug */,
+				7BA76E3F2478117B00223297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA76E402478117B00223297 /* Build configuration list for PBXNativeTarget "VideoMiniPlayerForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA76E412478117B00223297 /* Debug */,
+				7BA76E422478117B00223297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA76E432478117B00223297 /* Build configuration list for PBXNativeTarget "VideoMiniPlayerForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA76E442478117B00223297 /* Debug */,
+				7BA76E452478117B00223297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA76E462478117B00223297 /* Build configuration list for PBXNativeTarget "VideoMiniPlayerForMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA76E472478117B00223297 /* Debug */,
+				7BA76E482478117B00223297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA76E122478117400223297 /* Project object */;
+}
